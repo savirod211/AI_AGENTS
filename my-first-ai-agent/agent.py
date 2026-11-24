@@ -55,3 +55,9 @@ agent(prompt)
 
 print("\n--- RAW BACK-AND-FORTH DATA ---")
 print(json.dumps(agent.messages, indent=2, default=str))
+
+
+# python -m venv venv
+# cd .\venv\Scripts\
+# venv\Scripts\activate
+# pip install 'strands-agents[gemini]' python-dotenv
